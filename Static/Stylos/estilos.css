@@ -1,0 +1,76 @@
+html,body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: flex-start;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-position:center ; */
+    /*min-height: 100vh; Se le dice al body que como minimo este deve medir lo que mide la vista*/
+    /* background-image: url("../images/relax.jpg");  */
+}
+.container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    
+}
+.var-nav{
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    width: 20%;
+    padding: 0% 2% 0% 2%;
+    /* background-color: brown; */
+}
+.var-nav a{
+    color: blanchedalmond;
+    border: solid 1px rgb(157, 0, 205);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 40%;
+    text-decoration: none;
+}
+.var-nav a:hover{
+    background-color: rgb(157, 0, 205);
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        .container {
+            background-color: chartreuse;
+            display: flex;
+            flex-direction: column;
+            /*para poner los elementos en fila*/
+            justify-content: space-between;
+            padding: 1em 2em 1em 2em;
+            align-items: center;
+            /*Se centra en el eje vertical*/
+            /*superior,derecho,inferior, izquierdo*/
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        .container {
+            background-color: chartreuse;
+            display: flex;
+            flex-direction: column;
+            /*para poner los elementos en fila*/
+            justify-content: space-between;
+            padding: 1em 2em 1em 2em;
+            align-items: center;
+            /*Se centra en el eje vertical*/
+            /*superior,derecho,inferior, izquierdo*/
+        }
+    }
+}
